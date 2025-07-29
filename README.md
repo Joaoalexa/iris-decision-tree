@@ -1,42 +1,46 @@
-# 🌸 Classificação com Árvore de Decisão - Dataset Iris
+# 🌟 Classificadores de Machine Learning com Scikit-Learn
 
-Este projeto aplica o algoritmo `DecisionTreeClassifier` do Scikit-Learn no clássico dataset **Iris** (UCI ML Repository).
+Este repositório contém um notebook baseado no **Capítulo 4 do livro "Machine Learning with PyTorch and Scikit-Learn"**, demonstrando o uso de diversos classificadores disponíveis no `scikit-learn`.
 
-## 📁 Conteúdo
+## 📘 Capítulo 4 – A Tour of Machine Learning Classifiers
 
-- `Iris_Classificacao_Colab.ipynb`: Notebook com carregamento do dataset, treino/teste e visualização da árvore.
-- `matriz_confusao_iris.png`: Gráfico da matriz de confusão.
+Neste notebook exploramos:
 
-## 📊 Resultados
+- 🌳 **DecisionTreeClassifier** – com visualização da árvore
+- 🌲 **RandomForestClassifier**
+- 🧠 **BaggingClassifier**
+- ⚡ **AdaBoostClassifier**
+- 🤖 **VotingClassifier**
 
-- Acurácia: **100%**
-- Nenhum erro de classificação
-- Visualização da árvore de decisão com `plot_tree`
+## 📁 Arquivos
 
-## 🧪 Tecnologias
+- `Capitulo_4_Classificadores_ScikitLearn.ipynb` — Notebook com todos os classificadores e comparações de acurácia.
+- `Imagem_arvore.png` — Visualização gerada da árvore de decisão.
 
-- Python 3.11
-- Scikit-learn
-- Pandas
-- Matplotlib
-- Seaborn
+## 🚀 Execução
 
-## ▶️ Execução
-
-Você pode rodar o notebook diretamente no [Google Colab](https://colab.research.google.com) ou localmente com:
+Para executar o notebook:
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook Iris_Classificacao_Colab.ipynb
+jupyter notebook Capitulo_4_Classificadores_ScikitLearn.ipynb
 ```
 
----
+## 📦 Requisitos
 
-![Matriz de Confusão](matriz_confusao_iris.png)
+- scikit-learn
+- matplotlib
+- numpy
+- jupyter
 
----
+## 🧠 Dataset Utilizado
 
-## 📎 Fonte do Dataset
+Utilizamos o clássico **Iris Dataset**, disponível diretamente via `sklearn.datasets.load_iris()`.
 
-[Iris Dataset - UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/53/iris)
+## 📌 Objetivo
 
+O objetivo deste projeto é comparar modelos de classificação e entender visualmente como uma árvore de decisão aprende os dados.
+
+## 📝 Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
